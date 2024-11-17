@@ -31,7 +31,7 @@ class Login extends StatelessWidget {
                       validator: (x){
                         if(x==null || x.isEmpty)
                         {
-                          return "Enter valid Email";
+                          return "Enter valid Emaill";
                         }
                       },
                       controller: email,
